@@ -17,6 +17,8 @@
        PROCEDURE DIVISION.
        MAIN-PARA.
            MOVE "HELLO WORLD" TO WS-EXPLICIT.
+      * FP on cobol:S3921 WS-IMPLICIT - 
+      * it is large enough to hold "HELLO WORLD"
            MOVE "HELLO WORLD" TO WS-IMPLICIT.
 
            DISPLAY "WS-EXPLICIT = [" WS-EXPLICIT "]".
